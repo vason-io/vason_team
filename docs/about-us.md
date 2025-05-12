@@ -25,6 +25,8 @@ It supports operations like selection, joining, aggregation, and conversion, sim
 and works with data from files, clipboards, or APIs. Vason also includes a scripting system for
 automation and increased productivity.
 
+<lite-youtube videoid="P94cFu61tuo"/>
+
 ### Vason Sheets
 
 ```

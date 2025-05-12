@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      lite-youtube-embed:
+        specifier: 0.3.3
+        version: 0.3.3
       medium-zoom:
         specifier: 1.1.0
         version: 1.1.0
@@ -618,6 +621,9 @@ packages:
   is-what@4.1.16:
     resolution: {integrity: sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==}
     engines: {node: '>=12.13'}
+
+  lite-youtube-embed@0.3.3:
+    resolution: {integrity: sha512-gFfVVnj6NRjxVfJKo3qoLtpi0v5mn3AcR4eKD45wrxQuxzveFJUb+7Cr6uV6n+DjO8X3p0UzPPquhGt0H/y+NA==}
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -1378,6 +1384,8 @@ snapshots:
   html-void-elements@3.0.0: {}
 
   is-what@4.1.16: {}
+
+  lite-youtube-embed@0.3.3: {}
 
   magic-string@0.30.17:
     dependencies:

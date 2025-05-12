@@ -31,4 +31,11 @@ export default defineConfig({
       md.use(lightbox, {});
     },
   },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag === "lite-youtube",
+      },
+    },
+  },
 });
