@@ -3,22 +3,32 @@
 layout: home
 
 hero:
-  name: "Team Vason"
-  text: "Team Vason"
-  tagline: My great project tagline
+  name: "Vason Team"
+  text: "Full-Stack Software Experts"
+  tagline: "Code, Deploy, Repeat — Software That Moves Fast and Scales Smart"
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    - text: Read about us
+      link: /about-us
+      theme: brand
+
+    - text: Contact us
+      link: /contact-us
+      theme: alt
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Backend Development
+    icon: 📡
+    details: Robust APIs, secure authentication, and scalable server logic using modern frameworks and best practices.
+
+  - title: Frontend Development
+    icon: 🎨
+    details: Interactive, responsive UIs built with modern JavaScript frameworks, optimized for performance.
+
+  - title: Database Design
+    icon: 🗄️
+    details: Efficient, normalized schemas tailored for scalability, reliability, and fast queries.
+
+  - title: Continuous Integration / Continuous Delivery
+    icon: 🚀
+    details: Automated testing, building, and deployment pipelines for faster, safer releases with minimal manual effort.
 ---
