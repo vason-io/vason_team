@@ -5,6 +5,7 @@ import lightbox from "vitepress-plugin-lightbox";
 export default defineConfig({
   title: "Vason Team",
   description: "Vason Team",
+  cleanUrls: true,
   head: [["link", { rel: "icon", href: "/favicon.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -18,7 +19,6 @@ export default defineConfig({
         ],
       },
     ],
-
     socialLinks: [{ icon: "github", link: "https://github.com/vason-io" }],
     footer: {
       message: "Full-Stack Software Experts",
