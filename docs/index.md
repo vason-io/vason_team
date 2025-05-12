@@ -31,4 +31,12 @@ features:
   - title: Continuous Integration / Continuous Delivery
     icon: 🚀
     details: Automated testing, building, and deployment pipelines for faster, safer releases with minimal manual effort.
+
+  - title: Legacy Code Refactoring
+    icon: ✨
+    details: In-depth analysis and modernization of legacy codebases for better performance, maintainability, and scalability.
+
+  - title: Hardware Integration
+    icon: 🔌
+    details: Custom software solutions that interface seamlessly with hardware systems, sensors, and embedded devices.
 ---
