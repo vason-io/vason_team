@@ -15,6 +15,7 @@
     "format:check": "prettier --check .",
     "docs:dev": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs --host"
+    "docs:preview": "vitepress preview docs --host",
+    "docs:build&preview": "pnpm docs:build && pnpm docs:preview"
   }
 }

@@ -11,6 +11,8 @@ Our expertise spans several areas of software engineering, including but not lim
 - Database Design
 - ETL Process Design
 - Language Parsing
+- Refactoring legacy codebases
+- Software/Hardware integration
 - and more...
 
 ## Our projects

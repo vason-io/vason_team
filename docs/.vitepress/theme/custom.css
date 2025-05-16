@@ -1,7 +1,7 @@
 :root:not(.dark) .dark-only {
-    display: none;
+  display: none;
 }
 
 :root:is(.dark) .light-only {
-    display: none;
+  display: none;
 }
