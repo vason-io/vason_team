@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap for the Vason Team docs site.
+  Replace the <loc> base URL (https://vason.io) with your production site URL.
+  You can regenerate this file if you add/remove pages under `docs/`.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://vason.io/</loc>
+    <lastmod>2025-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://vason.io/projects/</loc>
+    <lastmod>2025-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://vason.io/about-us/</loc>
+    <lastmod>2025-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://vason.io/contact-us/</loc>
+    <lastmod>2025-10-20</lastmod>
+  </url>
+</urlset>

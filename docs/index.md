@@ -11,32 +11,50 @@ hero:
       link: /about-us
       theme: brand
 
+    - text: Out projects
+      link: /projects
+      theme: alt
+
     - text: Contact us
       link: /contact-us
       theme: alt
+---
+
+## [Our projects](./projects)
 
 features:
-  - title: Backend Development
-    icon: 📡
-    details: Robust APIs, secure authentication, and scalable server logic using modern frameworks and best practices.
+  - title: [Alljson.com](https://alljson.com/)
+    icon: 🔍
+    details: Alljson efficiently displays JSON documents in user-friendly formats, simplifying data visualization and interpretation.
 
-  - title: Frontend Development
-    icon: 🎨
-    details: Interactive, responsive UIs built with modern JavaScript frameworks, optimized for performance.
+  - title: [Vason Sheets](https://sheets.vason.io/)
+    icon: 📊
+    details: Vason Sheets is a powerful, interactive Worksheet Editor designed for seamless conversion between XLSX (Excel) and JSON formats.
+---
 
-  - title: Database Design
-    icon: 🗄️
-    details: Efficient, normalized schemas tailored for scalability, reliability, and fast queries.
+## Services
 
-  - title: Continuous Integration / Continuous Delivery
-    icon: 🚀
-    details: Automated testing, building, and deployment pipelines for faster, safer releases with minimal manual effort.
+- **Backend Development** ⚙️
+  
+  Robust APIs, secure authentication, and scalable server logic using modern frameworks and best practices.
 
-  - title: Legacy Code Refactoring
-    icon: ✨
-    details: In-depth analysis and modernization of legacy codebases for better performance, maintainability, and scalability.
+- **Frontend Development** 🎨
+  
+  Interactive, responsive UIs built with modern JavaScript frameworks, optimized for performance.
 
-  - title: Hardware Integration
-    icon: 🔌
-    details: Custom software solutions that interface seamlessly with hardware systems, sensors, and embedded devices.
+- **Database Design** 🗄️
+  
+  Efficient, normalized schemas tailored for scalability, reliability, and fast queries.
+
+- **Continuous Integration / Continuous Delivery** 🚀
+  
+  Automated testing, building, and deployment pipelines for faster, safer releases with minimal manual effort.
+
+- **Legacy Code Refactoring** ✨
+  
+  In-depth analysis and modernization of legacy codebases for better performance, maintainability, and scalability.
+
+- **Hardware Integration** 🔌
+  
+  Custom software solutions that interface seamlessly with hardware systems, sensors, and embedded devices.
 ---

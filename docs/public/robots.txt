@@ -1,0 +1,14 @@
+# robots.txt for Vason Team docs
+# Replace https://vason.io with your site's URL if different.
+
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+
+Sitemap: https://vason.io/sitemap.xml
+
+# Helpful notes:
+# - Place the final robots.txt at the site root (e.g., public/robots.txt when building the site)
+# - Ensure the Sitemap URL points to the deployed sitemap.xml
+# - Use robots.txt to block staging or private folders if needed
