@@ -5,7 +5,7 @@ import { useRouter } from "vitepress";
 import mediumZoom from "medium-zoom";
 // GA id from Vite env or fallback
 // @ts-ignore - import.meta.env typing may not be defined in this environment
-const GA_ID = (import.meta as any).env?.VITE_GA_MEASUREMENT_ID || "G-DM76BQ3BW2";
+const GA_ID = import.meta.env?.VITE_GA_MEASUREMENT_ID || "G-DM76BQ3BW2";
 
 const { Layout } = DefaultTheme;
 const router = useRouter();
@@ -23,8 +23,8 @@ onMounted(setupMediumZoom);
 // Track initial page view (if gtag loaded)
 onMounted(() => {
   try {
-    if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag("config", GA_ID, { page_path: window.location.pathname });
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("config", GA_ID, { page_path: window.location.pathname });
     }
   } catch (e) {
     // ignore if gtag not available
@@ -35,8 +35,8 @@ onMounted(() => {
 router.onAfterRouteChange = () => {
   setupMediumZoom();
   try {
-    if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag("config", GA_ID, { page_path: window.location.pathname });
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("config", GA_ID, { page_path: window.location.pathname });
     }
   } catch (e) {
     // ignore if gtag not available
